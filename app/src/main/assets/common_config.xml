@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <common_config>
+	
+	    <speech_plugin_package>cn.mrobot.speech.plugin</speech_plugin_package>
+	
+        <!-- 所有二级页面背景 -->
+        <background>bg_secondary_page.png</background>
+        <!-- 返回按钮 -->
+        <btn_back_bg img="btn_back_normal.png" img_pressed="btn_back_pressed.png"/>
+        <!-- 清空按钮 -->
+        <btn_clean_bg img="btn_clean_history_normal.png"
+                      img_pressed="btn_clean_history_pressed.png"
+                      img_disabled="btn_clean_history_disabled.png"/>
+        <!-- 二级页面标题颜色 -->
+        <page_title_color text_color="#006847"/>
+        <!-- 内容为空时显示图标 -->
+        <content_empty_img>img_content_empty.png</content_empty_img>
+        <!-- 内容为空时提示文字颜色 -->
+        <content_empty_text_color text_color="#006847"/>
+		<!-- 二级页面语音问题弹出框图标 -->
+		<speech_question_pw_icon>icon_speech_question.png</speech_question_pw_icon>
+		<!-- 二级页面语音问题弹出框背景 -->
+		<speech_question_pw_bg>bg_speech_question.9.png</speech_question_pw_bg>
+		<!-- 二级页面语音答案弹出框图标 -->
+		<speech_answer_pw_icon>icon_speech_answer.png</speech_answer_pw_icon>
+		<!-- 二级页面语音答案弹出框背景 -->
+		<speech_answer_pw_bg>bg_speech_answer.9.png</speech_answer_pw_bg>
+        <!-- 二级页面中语音弹出框答案颜色 -->
+        <speech_answer_color text_color="#ffffffff"/>
+        <!-- 二级页面中麦克风识别到的语音文字颜色 -->
+        <speech_question_color text_color="#308368"/>
+        <!-- 休眠状态下麦克风图标 -->
+        <mic_fall_asleep>icon_mic_fall_asleep.png</mic_fall_asleep>
+        <!-- 唤醒状态下麦克风图标 -->
+        <mic_wakeup>icon_mic_wake_up.png</mic_wakeup>
+        <!-- 麦克风动画 -->
+        <mic_anim frame_duration="150">
+            <frame_img>icon_mic_anim_1.png</frame_img>
+            <frame_img>icon_mic_anim_2.png</frame_img>
+            <frame_img>icon_mic_anim_3.png</frame_img>
+        </mic_anim>
+        <!-- 上一页按钮 -->
+        <btn_pre_bg img="btn_scroll_picture_pre_normal.png"
+                    img_pressed="btn_scroll_picture_pre_pressed.png"
+                    img_disabled="btn_scroll_picture_pre_disabled.png"/>
+        <!-- 下一页按钮 -->
+        <btn_next_bg img="btn_scroll_picture_next_normal.png"
+                     img_pressed="btn_scroll_picture_next_pressed.png"
+                     img_disabled="btn_scroll_picture_next_disabled.png"/>
+
+    </common_config>
+
